@@ -23,17 +23,17 @@ function LandingPage() {
 
             <section className="features">
                 <div className="feature">
-                    <img src="https://example.com/multiplayer-icon.png" alt="Multiplayer Mode" />
+                    <img src="" alt="Multiplayer Mode" />
                     <h3>Multiplayer Mode</h3>
                     <p>Challenge your friends in exciting multiplayer matches.</p>
                 </div>
                 <div className="feature">
-                    <img src="https://example.com/friends-icon.png" alt="Compete with Friends" />
+                    <img src="" alt="Compete with Friends" />
                     <h3>Compete with Friends</h3>
                     <p>Play and compete with your buddies anytime, anywhere.</p>
                 </div>
                 <div className="feature">
-                    <img src="https://example.com/chat-icon.png" alt="Real-time Chat" />
+                    <img src="" alt="Real-time Chat" />
                     <h3>Real-time Chat</h3>
                     <p>Interact with other players while you play.</p>
                 </div>
