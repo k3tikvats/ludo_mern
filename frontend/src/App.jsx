@@ -1,3 +1,17 @@
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Basic Template</h1>;
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Login from './Components/Auth/Login/Login.jsx';
+import Register from './Components/Auth/Register/Register.jsx';
+function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<Login />} />  {}
+        <Route path="/register" element={<Register />} />  {}
+      </Routes>
+    </Router>
+  );
 }
+
+export default App;
+
