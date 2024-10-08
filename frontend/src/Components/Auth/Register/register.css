@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.sign_up {
+    color: white;
+    margin-bottom: 20px;
+    margin-top:10px;
+    font-size: 32px;
+    line-height: 1.2;
+    font-family: 'Oswald', sans-serif;
+}
+
+.image_sign{
+    
+    background:url("src/Components/Auth/Register/Finding.gif") no-repeat center center;
+    background-size:cover;
+    height:500px;
+    width:400px; 
+    border-radius: 7px;
+    
+    
+
+}
+.bg_sign{
+    display: flex ;
+    align-items: center;  
+    justify-content: center;
+
+    background:url("src/Components/Auth/Register/final.png") no-repeat center center;
+    
+    background-size: cover;
+    height:100vh;
+    width:100vw;
+}
