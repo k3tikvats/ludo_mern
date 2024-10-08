@@ -1,0 +1,64 @@
+
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    z-index: 1000; /* make sure it's on top */
+}
+
+.modal-content {
+    background-color:rgb(3, 3, 69);
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px; 
+    font-family: monospace;
+}
+
+.modal-content label {
+    display: block;
+    margin: 10px;
+    font-family: monospace;
+    font-size: 16px; 
+    color: white; 
+}
+
+.modal-content input {
+    width: 90%;
+    padding: 8px; 
+    margin-top: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-right: 20px;
+}
+
+.savebutton{
+    background-color: #4CAF50;
+    color: white;
+    font-family: monospace;
+    height: 25px;
+    width: 50px;
+    border-radius: 5%;
+    margin: 10px;
+}
+.cancelbutton{
+    background-color: red;
+    color: white;
+    font-family: monospace;
+    height: 25px;
+    width: 70px;
+    border-radius: 5%;
+    margin: 10px;
+    transform: translate(40%, 0%);
+}
+.heading{
+    font-family: monospace;
+    color: rgb(221, 255, 0);
+  }
+  
