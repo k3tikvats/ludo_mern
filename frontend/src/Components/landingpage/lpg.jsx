@@ -1,4 +1,5 @@
 import React from 'react';
+import './app.css'; // Adjust the path if the CSS file is not in the same folder
 
 
 function LandingPage() {

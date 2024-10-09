@@ -15,3 +15,15 @@ function App() {
 
 export default App;
 
+// import React from 'react';
+// import LandingPage from './Components/landingpage/lpg'; // Adjust path if needed
+
+// function App() {
+//   return (
+//     <div>
+//       <LandingPage />
+//     </div>
+//   );
+// }
+
+// export default App;
