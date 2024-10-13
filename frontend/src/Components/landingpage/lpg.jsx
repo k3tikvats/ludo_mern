@@ -57,7 +57,7 @@ function LandingPage() {
             <footer className="footer">
                 <p style={{ fontSize: '1.2em' }}>&copy; 2024 Ludo Game | <a href="#contact">Contact Us</a> | <a href="#privacy">Privacy Policy</a></p>
                 <p style={{ fontSize: '1.2em' }}>Follow us on:
-                    <a href="#">Facebook</a> |
+                        <a href="#">Facebook</a> |
                     <a href="#">Instagram</a> |
                     <a href="#">Twitter</a>
                 </p>
