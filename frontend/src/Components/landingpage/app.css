@@ -5,6 +5,12 @@ body {
     color: #333;
 }
 
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Vertically centers the items */
+    gap: 10px; /* Adds space between the logo and the text */
+  }
 .navbar {
     background: #1D1D1D;
     padding: 15px;
